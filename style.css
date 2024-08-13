@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7fa99b;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+.container{
+    margin-top: 15%;
+    font-size: 100px;
+    color: green;
+    margin-left: 30%;
+    
+    
+}
+.clock{
+    background-color: black;
+    width: 40%;
+    padding-left: 120px;
+    padding-right: 100px;
+    display: flex;
+}
+
+
+
+#hrs::after{
+    content: "HOURS";
+    display: block;
+    font-size: 30px;
+}
+#min::after{
+    content: "MINS";
+    display: block;
+    font-size: 30px;
+}
+#sec::after{
+    content: "SEC";
+    display: block;
+    font-size: 30px;
+}
